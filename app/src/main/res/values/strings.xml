@@ -2,4 +2,5 @@
     <string name="app_name">MadLevel1Task2</string>
     <string name="title">Conjunction (AND)</string>
     <string name="submit_button">SUBMIT</string>
+    <string name="correct_answers">You got %d correct answers!</string>
 </resources>
