@@ -88,7 +88,8 @@
                 android:layout_height="50dp"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:textAlignment="center" />
+                android:textAlignment="center"
+                android:digits="TF"/>
         </TableRow>
 
         <TableRow

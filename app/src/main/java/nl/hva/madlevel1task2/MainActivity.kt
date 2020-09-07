@@ -29,10 +29,12 @@ class MainActivity : AppCompatActivity() {
      * Check the amount of correct answers and store it in the correctAnswers variable
      */
     private fun checkCorrectAnswers() {
-        if (binding.answer1.text.toString().toLowerCase(Locale.getDefault()) == "t") correctAnswers++
-        if (binding.answer2.text.toString().toLowerCase(Locale.getDefault()) == "f") correctAnswers++
-        if (binding.answer3.text.toString().toLowerCase(Locale.getDefault()) == "f") correctAnswers++
-        if (binding.answer4.text.toString().toLowerCase(Locale.getDefault()) == "f") correctAnswers++
+        val answers: List<String>
+
+        if (binding.answer1.text.toString() == "T") correctAnswers++
+        if (binding.answer2.text.toString() == "F") correctAnswers++
+        if (binding.answer3.text.toString() == "F") correctAnswers++
+        if (binding.answer4.text.toString() == "F") correctAnswers++
 
         showCorrectAnswers()
         correctAnswers = 0
